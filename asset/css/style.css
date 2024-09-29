@@ -1,0 +1,391 @@
+* {
+    font-family: Arial, Helvetica, sans-serif; 
+    box-sizing: border-box;
+    
+}
+
+
+  /* navbar */
+
+#navbar {
+    background-color: purple;
+    width: 100%;
+  }
+
+#logo{
+    margin-left: 15px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 6px;
+ }
+
+
+#logo span{
+    color: yellow;
+}
+
+#logo #span1{
+    font-size: 30px;
+}
+
+ .navbar-nav{
+    margin-left: 20px;
+ }
+
+.nav-item{
+    margin-left: 10px;
+ }
+
+.nav-item .nav-link{
+    color: white;
+    transition: 0.5s ease;
+ }
+
+.nav-item .nav-link:hover{
+    color: black;
+ }
+
+ #search {
+  display: flex;
+  align-items: center;
+ }
+
+ #search input{
+    border-radius: 50px;
+    border: none;
+    width: 300px;
+    padding: 10px;
+ }
+
+ #search button{
+    border-radius: 50px;
+    color: white;
+    background-color: orange;
+    margin-right: 10px;
+ }
+
+ #search button:hover {
+   background-color: rgb(233, 172, 172);
+   color: black;
+ }
+
+
+
+/* home content */
+
+
+
+.highlight {
+  margin-top: 20px;
+  background-size: cover;
+  background-position: right;
+}
+
+.highlight-line {
+  font-weight: 700;
+}
+
+.content {
+  margin-top: 20px;
+}
+
+ .content h1{
+    color: rgb(67, 0, 86);
+    font-weight: bold;
+    text-shadow: -1px 1px 1px black;
+    text-align: center;
+    font-size: 4vw;
+    
+ }
+
+ .carousel-line {
+   background-color: olive;
+   
+ }
+
+ .carousel-line:hover {
+   background-color: yellow;
+   color: black;
+ }
+
+ #span2{
+    color: yellow;
+ }
+
+ .content p{
+    text-align: center;
+ }
+ 
+
+ .bt{
+    text-align: center;
+    margin-bottom: 10px;
+ }
+
+ .line {
+  margin-bottom: 20px;
+  font-weight: 600;
+ }
+
+   
+ .bt button{
+    width: 100px;
+    height: 32px;
+    letter-spacing: 1px;
+    background-color: purple;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    transition: 0.5s ease;
+    cursor: pointer;
+ }
+
+ .bt button:hover{
+    background-color: yellow;
+    color: black;
+ } 
+
+
+ /* card */
+ 
+ .shop-section {
+  margin-top: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+ }
+
+ .card-title {
+  font-weight: 700;
+  text-align: center;
+  text-decoration: underline;
+ }
+
+ .card {
+  width: 23%;
+  padding: 20px 0px 15px;
+  box-shadow: 0px 3px 8px #000;
+  transition: transform 0.5s ease;
+  aspect-ratio: 3/2;
+ }
+
+ .card:hover {
+  box-shadow:  0px 2px 3px;
+  transform: scale(1.1);
+ }
+
+.card-content {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.see-more {
+  text-decoration: none;
+  margin-top: 100px;
+  color: rgb(8, 2, 2);
+}
+
+.see-more:hover {
+  color: rgb(230, 60, 60);
+} 
+
+/* product btn */
+
+ .text-uppercase {
+   text-decoration: underline;
+ }
+
+ .btn {
+   background-color: purple;
+ }
+
+ .btn:hover {
+     background-color: yellow;
+     color: black;
+ } 
+     
+
+
+
+
+/* login form */
+
+#log-form {
+  margin-top: 10%;
+}
+
+.login-form {
+  box-shadow: 2px 2px 3px 0px rgb(123, 123, 228);
+  padding: 20px;
+  border-radius: 20px;
+  backdrop-filter: blur(3px);
+  background-color: rgba(0, 0, 0, 0.5); 
+  max-width: 400px;
+  margin: auto;
+}
+
+
+
+.login-form h2 {
+  color: white;
+  text-align: center;
+}
+
+/* .d-block {
+  color: beige;
+} */
+
+
+.login-form label {
+  color: white;
+}
+
+
+
+
+.login-form .form-control {
+  border-radius: 10px;
+}
+
+
+
+.login-form button {
+  margin-top: 20px;
+  width: 100%;;
+}
+
+
+
+.login-form a {
+  color: white;
+}
+
+
+
+.login-form a.register-link {
+  font-weight: 700;
+  text-decoration: underline;
+} 
+
+
+/* Register form */ 
+
+#reg-form {
+  margin-top: 10%;
+}
+
+.register-form {
+  box-shadow: 2px 2px 3px 0px rgb(123, 123, 228);
+  padding: 20px;
+  border-radius: 20px;
+  backdrop-filter: blur(3px);
+  background-color: rgba(0, 0, 0, 0.5); 
+  max-width: 400px;
+  margin: auto;
+}
+
+.register-form h2 {
+  color: white;
+  text-align: center;
+}
+
+.register-form label {
+  color: white;
+}
+
+.register-form .form-control {
+  border-radius: 10px;
+}
+
+.register-form button {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.register-form .form-text {
+  color: white;
+}
+
+.register-form a {
+  color: white;
+}
+
+.register-form a.login-link {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+
+/* product page */
+
+.lower {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.buy-now {
+  text-decoration: none;
+  margin-top: 50px;
+  color: white;
+  border: 1px solid black;
+  background: black;
+  padding: 5px;
+  border-radius: 10%;
+}
+
+.buy-now:hover {
+  color: black;
+  background-color: yellow;
+}
+
+.add-cart {
+  text-decoration: none;
+  margin-top: 50px;
+  color: white;
+  border: 1px solid black;
+  background: black;
+  padding: 5px;
+  border-radius: 10%;
+}
+
+.add-cart:hover {
+  color: black;
+  background-color: yellow;
+}  
+
+/* Responsive */
+
+@media (max-width:768px) {
+  #search input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+
+.card {
+  width: 45%;
+}
+
+.content h1 {
+  width: 5vw;
+}
+
+.shop-section {
+  justify-content: center;
+}
+
+.bt button {
+  width: 80%;
+}
+
+.login-form, .register-form {
+  width: 90%;
+  padding: 15%;
+}
+
+.card {
+  width: 90%;
+  margin-bottom: 20px;
+}
+}
