@@ -78,7 +78,7 @@
 
 .highlight {
   margin-top: 20px;
-  background-size: cover;
+  /* background-size: cover; */
   background-position: right;
 }
 
@@ -146,6 +146,12 @@
     color: black;
  } 
 
+ @media (max-width:768px) {
+  .highlight-line {
+    font-size: 10px;
+  }
+ }
+
 
  /* card */
  
@@ -172,7 +178,7 @@
 
  .card:hover {
   box-shadow:  0px 2px 3px;
-  transform: scale(1.1);
+  transform: scale(1.05);
  }
 
 .card-content {
@@ -367,17 +373,17 @@
   width: 45%;
 }
 
-.content h1 {
+/* .content h1 {
   width: 5vw;
-}
+} */
 
-.shop-section {
-  justify-content: center;
-}
+/* .shop-section {
+   justify-content: center;
+} */
 
-.bt button {
+/* .bt button {
   width: 80%;
-}
+} */
 
 .login-form, .register-form {
   width: 90%;
